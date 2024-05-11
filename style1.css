@@ -1,0 +1,119 @@
+
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+body {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    background-color: #f3ecec;
+    margin: 20px;
+    background: url('./lamar/logo11.jpg') center center/cover no-repeat ;
+  }
+  
+  h1 {
+    color: maroon ;
+    font-size: 70px;
+    margin-bottom: 20px ;
+    font-family:serif
+  }
+  .menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .category {
+    background-color: opacity transparent;
+    border: 2px solid maroon ;
+    padding: 40px;
+    margin: 9px;
+    min-width: 200px;
+    max-width: 400px;
+  }
+  
+  h2 {
+    margin-top: 0;
+    border-bottom: 1px solid maroon ; 
+    padding-bottom: 5px;
+    font-family:serif;
+    color :#000;
+    font-size: 30px;
+    font-weight:lighter;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding:0;
+  }
+  
+  li {
+    padding:7px;
+    font-size: 20px;
+    color: #000 ;
+    font-weight:700;
+    
+  }
+  
+  li:hover {
+    background-color:rgb(215, 199, 199);
+   
+  }
+
+/* Mobile Devices */
+@media (max-width: 600px) {
+    #navbar {
+      flex-direction: column;
+    }
+
+    #navbar img {
+      margin-bottom: 20px;
+    }
+
+    header .content h1 {
+      font-size: 18px;
+    }
+
+    header .content p {
+      font-size: 14px;
+    }
+
+    #about .about-content {
+      flex-direction: column;
+    }
+
+    #about .about-content a {
+      margin: 2rem 0;
+    }
+
+    #about img {
+      display: none;
+    }
+
+    #offers {
+      height: auto;
+      padding: 30px 10px;
+    }
+
+    #offers .offers-items {
+      flex-direction: column;
+    }
+
+    #menu .menu-items .menu-item {
+      margin: 20px 10px;
+    }
+
+    #daytime .daytime-items {
+      display: block;
+      height: auto;
+      padding: 30px 0;
+    }
+
+    #daytime .daytime-items .daytime-item {
+      margin-top: 20px;
+    }
+
+    #contact .contact-info,
+    form {
+      width: 80%;
+    }
+
+}
+  
